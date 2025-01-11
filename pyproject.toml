@@ -11,6 +11,9 @@ requires-python = ">=3.10"
 [tool.poetry.dependencies]
 python = "^3.10"
 schnapsen = "0.0.5"
+openai = "^1.58.1"
+poetry = "^2.0.0"
+pydantic = "^2.8.2"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

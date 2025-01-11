@@ -13,41 +13,41 @@ client = AzureOpenAI(
     api_version="2024-08-01-preview",  
 )
 
-chat_prompt = [
-    {
-        "role": "system",
-        "content": [
-            {
-                "type": "text",
-                "text": "You are a card playing AI. You are playing a game of Schnapsen against another player."
-            }
-        ]
-    },
-    {
-        "role": "user",
-        "content": [
-            {
-                "type": "text",
-                "text": " I am playing a game of schnapsen, what's the best strategy/approach?"
-            }
-        ]
-    }
-] 
+# chat_prompt = [
+#     {
+#         "role": "system",
+#         "content": [
+#             {
+#                 "type": "text",
+#                 "text": "You are a card playing AI. You are playing a game of Schnapsen against another player."
+#             }
+#         ]
+#     },
+#     {
+#         "role": "user",
+#         "content": [
+#             {
+#                 "type": "text",
+#                 "text": " I am playing a game of schnapsen, what's the best strategy/approach?"
+#             }
+#         ]
+#     }
+# ] 
     
-# Include speech result if speech is enabled  
-messages = chat_prompt 
+# # Include speech result if speech is enabled  
+# messages = chat_prompt 
 
-completion = client.chat.completions.create(  
-    model=deployment,  
-    messages=messages,
-    max_tokens=10000,  
-    temperature=0.7,  
-    top_p=0.95,  
-    frequency_penalty=0,  
-    presence_penalty=0,  
-    stop=None,  
-    stream=False  
-)  
+# completion = client.chat.completions.create(  
+#     model=deployment,  
+#     messages=messages,
+#     max_tokens=10000,  
+#     temperature=0.7,  
+#     top_p=0.95,  
+#     frequency_penalty=0,  
+#     presence_penalty=0,  
+#     stop=None,  
+#     stream=False  
+# )  
   
-print(completion.to_json())  
-print(completion.choices[0].message)
+# print(completion.to_json())  
+# print(completion.choices[0].message)
