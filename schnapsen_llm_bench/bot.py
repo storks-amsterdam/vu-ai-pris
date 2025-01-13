@@ -6,7 +6,7 @@ from schnapsen.game import Bot, PlayerPerspective, Move, SchnapsenTrickScorer, S
 from schnapsen.deck import Suit, Card, Rank
 
 from schnapsen_llm_bench.utils import perspective_to_dict, gather_deltas_from_history, game_rules
-from schnapsen_llm_bench.calling_llm import client
+from schnapsen_llm_bench.llm import client
 
 from pydantic import BaseModel
 
@@ -55,7 +55,7 @@ class LlmBot(Bot):
                         "text": "You are a card playing AI. You are helping to play a game of Schnapsen against another player. You are given game persepctive from a user, and available moves. Your task is to select the best move."
                         + game_rules()
                         + "The game has special moves: 'MARRIAGE' and 'TRUMP_EXCHANGE'. A marriage is a pair of cards: a queen and a king of the same suit. A trump exchange is a jack of trumps."
-                        + "The output should be a move that is valid in the current game state.The format is a json with three keys: 'suit', 'rank', and 'type'."
+                        + "The output should be a move that is valid in the current game state. The format is a json with three keys: 'suit', 'rank', and 'type'."
                         + " suit value is one of : 'CLUBS', 'DIAMONDS', 'HEARTS', 'SPADES'."
                         + " rank value is one of : 'ACE', 'TEN', 'JACK', 'QUEEN', 'KING'."
                         + " type value is one of : 'REGULAR', 'MARRIAGE', 'TRUMP_EXCHANGE'."
