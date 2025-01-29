@@ -1,0 +1,43 @@
+
+
+python schnapsen_llm_bench/main.py --rounds=100 --model="gpt-4o-mini"
+
+
+# python schnapsen_llm_bench/main.py --rounds=100 --model="Cohere-command-r-plus-08-2024"
+# python schnapsen_llm_bench/main.py --rounds=100 --model="Llama-3.3-70B-Instruct"
+# python schnapsen_llm_bench/main.py --rounds=350 --model="Meta-Llama-3.1-405B-Instruct"
+# python schnapsen_llm_bench/main.py --rounds=100 --model="Ministral-3B"
+# python schnapsen_llm_bench/main.py --rounds=250 --model="Mistral-Large-2411"
+# python schnapsen_llm_bench/main.py --rounds=100 --model="Mistral-small"
+# python schnapsen_llm_bench/main.py --rounds=100 --model="Phi-3.5-mini-instruct"
+python schnapsen_llm_bench/main.py --rounds=100 --model="Phi-3.5-MoE-instruct"
+# python schnapsen_llm_bench/main.py --rounds=100 --model="Phi-4"
+# python schnapsen_llm_bench/main.py --rounds=100 --model="gpt-4"
+# python schnapsen_llm_bench/main.py --rounds=100 --model="gpt-4o"
+# python schnapsen_llm_bench/main.py --rounds=100 --model="gpt-4o-mini"
+
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="rdeepbot" --model="Cohere-command-r-plus-08-2024"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="rdeepbot" --model="Llama-3.3-70B-Instruct"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="rdeepbot" --model="Meta-Llama-3.1-405B-Instruct"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="rdeepbot" --model="Ministral-3B"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="rdeepbot" --model="Mistral-Large-2411"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="rdeepbot" --model="Mistral-small"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="rdeepbot" --model="Phi-3.5-mini-instruct"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="rdeepbot" --model="Phi-3.5-MoE-instruct"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="rdeepbot" --model="Phi-4"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="rdeepbot" --model="gpt-4"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="rdeepbot" --model="gpt-4o"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="rdeepbot" --model="gpt-4o-mini"
+
+
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="gpt-4o-mini" --model="Cohere-command-r-plus-08-2024"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="gpt-4o-mini" --model="Llama-3.3-70B-Instruct"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="gpt-4o-mini" --model="Meta-Llama-3.1-405B-Instruct"
+# python schnapsen_llm_bench/main.py --rounds=20 --opponent="gpt-4o-mini" --model="Ministral-3B"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="gpt-4o-mini" --model="Mistral-Large-2411"
+# python schnapsen_llm_bench/main.py --rounds=70 --opponent="gpt-4o-mini" --model="Mistral-small"
+python schnapsen_llm_bench/main.py --rounds=100 --opponent="gpt-4o-mini" --model="Phi-3.5-mini-instruct"
+python schnapsen_llm_bench/main.py --rounds=100 --opponent="gpt-4o-mini" --model="Phi-3.5-MoE-instruct"
+# python schnapsen_llm_bench/main.py --rounds=50 --opponent="gpt-4o-mini" --model="Phi-4"
+# python schnapsen_llm_bench/main.py --rounds=90 --opponent="gpt-4o-mini" --model="gpt-4"
+# python schnapsen_llm_bench/main.py --rounds=100 --opponent="gpt-4o-mini" --model="gpt-4o"
