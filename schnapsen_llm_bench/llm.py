@@ -44,7 +44,7 @@ gpt_4o_mini_client = AzureOpenAI(
 )
 
 gpt_4o_client = AzureOpenAI(
-    azure_endpoint=endpoint_east_us 
+    azure_endpoint=endpoint_east_us,
     api_key=os.getenv("AZURE_OPENAI_API_KEY_EAST_US"),  
     api_version="2024-08-01-preview",
 )

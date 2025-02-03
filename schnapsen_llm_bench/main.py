@@ -121,34 +121,3 @@ if __name__ == "__main__":
 
     main([args.model, args.opponent], args.rounds, args.seed)
 
-
-
-# if __name__ == "__main__":
-
-
-#     # choose the players
-#     rand_bot = RandBot(rand=random.Random(42), name="randbot")
-#     rdeep_bot = RdeepBot(num_samples=10, depth=5, rand=random.Random(42), name="rdeepbot")
-#     bully_bot = BullyBot(rand=random.Random(42), name="bullybot")
-#     # llm_bot_4o = LlmBot(model='gpt-4o')
-#     # llm_llama_33 = LlmBot(model='Llama-3.3-70B-Instruct')
-#     # llm_llama_31 = LlmBot(model='Meta-Llama-3.1-405B-Instruct')
-#     # llm_o1_mini = LlmBot(model='o1-mini')
-#     # llm_mistral_large = LlmBot(model='Mistral-Large-2411')
-#     # llm_phi4 = LlmBot(model='Phi-4')
-#     # llm_mistral_small = LlmBot(model='Mistral-small')
-#     # llm_mistral_3B = LlmBot(model='Ministral-3B')
-#     # llm_bot_4o_mini = LlmBot(model='gpt-4o-mini')
-#     # llm_bot_4 = LlmBot(model='gpt-4')
-
-#     # play the game
-#     # play_game(llm_bot_4o_mini, rand_bot)
-
-
-
-#     # play each model once
-#     for model in models:
-#         print(f"Playing {model}")
-#         llm_bot = LlmBot(model=model)
-#         play_game(llm_bot, rand_bot)
-#         print("\n")
